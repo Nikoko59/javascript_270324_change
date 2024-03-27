@@ -1,0 +1,105 @@
+body {
+    font-family: "Poppins" , sans-serif;
+}
+
+#magic {
+    display: flex;
+    align-items: center;
+  text-align: center;
+    justify-content: center;
+    margin: 30px;
+    height: 100px;
+
+
+
+  
+
+}
+
+
+
+input[type="text"] {
+    margin-right: 20px;
+    width: 200px;
+    border : 1px solid orange;
+padding: 5px;
+   text-align: center;
+    
+}
+
+#story{
+    text-align: center;
+width: 80% ; 
+margin: 0 auto;
+line-height: 1.8em;
+    
+}
+
+#btn{
+    color : black ; 
+    background: red ;
+    border: 1px white; 
+    padding: 10px;
+    font-size : 1rem ; 
+    width: 150px;
+    font-weight: 600;
+    cursor : pointer ;
+}
+
+#btn:hover {
+    background: black ;
+    color : red; 
+    transition : 0.3s ease-in-out; 
+    border-radius : 200px ; 
+}
+
+i {
+    color: white; 
+    background: black;
+    padding: 10px;
+    border-radius : 30px; 
+    margin-left: 20px ;
+ 
+}
+
+i:hover{
+    color : black ; 
+    background: white;
+    transition : 0..3s ease-in ; 
+
+    
+}
+
+li {
+    list-style-type: none;
+    font-size : 0.9rem; 
+    
+}
+
+em {
+    color : red; 
+    background: black ;
+    padding: 4px;
+    font-weight: 0.8rem;
+}
+
+h3{
+    background: blue ; 
+    color : white; 
+    padding: 10px;
+ 
+}
+
+h3:hover {
+    background: white; 
+    color : blue ; 
+    border : 1px solid blue ; 
+}
+
+
+.remplacement {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color :red ; 
+    font-weight: 600;
+}
